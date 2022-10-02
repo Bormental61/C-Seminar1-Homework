@@ -8,7 +8,7 @@
 
 int getSecondDigitFromThreeDigitNumber(int number)
 {
-    int deciNumber = number/10;
+    int deciNumber = number / 10;
     int secondDigit = deciNumber % 10;
     return secondDigit;
 }
